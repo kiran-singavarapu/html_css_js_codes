@@ -1,0 +1,18 @@
+<html>
+<body>
+<select id="dropdown">
+<option value="red">Red</option>
+<option value="green">green</option>
+<option value="white">white</option>
+<option value="black">black</option>
+</select>
+<input type="button" value="select and remove" onclick="afisho()">
+<script>
+function afisho()
+{
+var x=document.getElementById("dropdown");
+var c=0;
+var str="";
+for(var i=0;i<x.length;i++) {="" str+="x[i].text+"" ";="" c++;="" }="" document.write(str+"="" "+c);="" }="" <="" script="">
+</body>
+</html>
